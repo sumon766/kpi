@@ -81,7 +81,7 @@ Example commands:
 ### Link to the Frontend
 
 ```sh
-  https://github.com/sumon766/kpi-frontend.git
+  https://github.com/sumon766/kpi-frontend
 ```
 
 ### Install
