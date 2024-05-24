@@ -31,6 +31,12 @@ class QuestionController extends Controller
     public function store(Request $request)
     {
         //
+        $validatedData = $request->validate([
+            'question' => 'required'
+        ]);
+
+        $question = Question::create($validatedData);
+        return response()->json($question, 201);
     }
 
     /**
