@@ -31,6 +31,13 @@ class SectorController extends Controller
     public function store(Request $request)
     {
         //
+        $validatedData = $request->validate([
+            'name' => 'required|string|max:255'
+        ]);
+
+        $sector = Sector::create($validatedData);
+
+        return response()->json($sector, 201);
     }
 
     /**
