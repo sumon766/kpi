@@ -78,6 +78,12 @@ Example commands:
   git clone https://github.com/sumon766/kpi-backend.git
 ```
 
+### Link to the Frontend
+
+```sh
+  https://github.com/sumon766/kpi-frontend.git
+```
+
 ### Install
 
 To install and run the project, open the root folder and edit the .env file to setup your database and run:
